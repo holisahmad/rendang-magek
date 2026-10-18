@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /generate-placeholders.html
 
-Sitemap: https://rendangmagek.com/sitemap.xml
+Sitemap: https://rendang-magek.vercel.app/sitemap.xml

@@ -5,23 +5,23 @@
 
   <!-- Beranda -->
   <url>
-    <loc>https://rendangmagek.com/</loc>
+    <loc>https://rendang-magek.vercel.app/</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="id" href="https://rendangmagek.com/"/>
+    <xhtml:link rel="alternate" hreflang="id" href="https://rendang-magek.vercel.app/"/>
     <image:image>
-      <image:loc>https://rendangmagek.com/gambar/hero-rendang.jpg</image:loc>
+      <image:loc>https://rendang-magek.vercel.app/gambar/hero-rendang.jpg</image:loc>
       <image:title>Rendang Daging Sapi Khas Minangkabau — Rendang Magek Yogyakarta</image:title>
       <image:caption>Rendang daging sapi berbumbu pekat tradisional Minangkabau dari Rendang Magek Yogyakarta</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://rendangmagek.com/gambar/rendang-daging.jpg</image:loc>
+      <image:loc>https://rendang-magek.vercel.app/gambar/rendang-daging.jpg</image:loc>
       <image:title>Rendang Daging Sapi — Rendang Magek</image:title>
       <image:caption>Rendang daging sapi kering berbumbu kelapa pekat dalam mangkuk keramik</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://rendangmagek.com/gambar/rendang-jengkol.jpg</image:loc>
+      <image:loc>https://rendang-magek.vercel.app/gambar/rendang-jengkol.jpg</image:loc>
       <image:title>Rendang Jengkol — Rendang Magek</image:title>
       <image:caption>Rendang jengkol dengan balutan bumbu kering kelapa panggang khas Minangkabau</image:caption>
     </image:image>
@@ -29,7 +29,7 @@
 
   <!-- Kebijakan Privasi -->
   <url>
-    <loc>https://rendangmagek.com/privasi.html</loc>
+    <loc>https://rendang-magek.vercel.app/privasi.html</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
@@ -37,7 +37,7 @@
 
   <!-- Ketentuan Layanan -->
   <url>
-    <loc>https://rendangmagek.com/ketentuan.html</loc>
+    <loc>https://rendang-magek.vercel.app/ketentuan.html</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
