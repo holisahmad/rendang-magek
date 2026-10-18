@@ -1,0 +1,22 @@
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# File sementara yang tidak perlu dipush
+generate-placeholders.html
+
+# File kerja internal (bukan aset website)
+gambar/desain-approved.png
+gambar/cerita-meja.svg
+gambar/cta-bg.svg
+gambar/hero-rendang.svg
+gambar/ide-bekal.svg
+gambar/ide-meja.svg
+gambar/ide-nasi.svg
+gambar/rendang-daging.svg
+gambar/rendang-jengkol.svg

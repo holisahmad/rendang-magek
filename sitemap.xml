@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+
+  <!-- Beranda -->
+  <url>
+    <loc>https://rendangmagek.com/</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="id" href="https://rendangmagek.com/"/>
+    <image:image>
+      <image:loc>https://rendangmagek.com/gambar/hero-rendang.jpg</image:loc>
+      <image:title>Rendang Daging Sapi Khas Minangkabau — Rendang Magek Yogyakarta</image:title>
+      <image:caption>Rendang daging sapi berbumbu pekat tradisional Minangkabau dari Rendang Magek Yogyakarta</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://rendangmagek.com/gambar/rendang-daging.jpg</image:loc>
+      <image:title>Rendang Daging Sapi — Rendang Magek</image:title>
+      <image:caption>Rendang daging sapi kering berbumbu kelapa pekat dalam mangkuk keramik</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://rendangmagek.com/gambar/rendang-jengkol.jpg</image:loc>
+      <image:title>Rendang Jengkol — Rendang Magek</image:title>
+      <image:caption>Rendang jengkol dengan balutan bumbu kering kelapa panggang khas Minangkabau</image:caption>
+    </image:image>
+  </url>
+
+  <!-- Kebijakan Privasi -->
+  <url>
+    <loc>https://rendangmagek.com/privasi.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+  <!-- Ketentuan Layanan -->
+  <url>
+    <loc>https://rendangmagek.com/ketentuan.html</loc>
+    <lastmod>2026-10-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+
+</urlset>
