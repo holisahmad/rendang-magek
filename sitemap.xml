@@ -11,25 +11,30 @@
     <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="id" href="https://rendang-magek.vercel.app/"/>
     <image:image>
-      <image:loc>https://rendang-magek.vercel.app/gambar/hero-rendang.jpg</image:loc>
-      <image:title>Rendang Daging Sapi Khas Minangkabau — Rendang Magek Yogyakarta</image:title>
-      <image:caption>Rendang daging sapi berbumbu pekat tradisional Minangkabau dari Rendang Magek Yogyakarta</image:caption>
+      <image:loc>https://rendang-magek.vercel.app/gambar/produk1.jpeg</image:loc>
+      <image:title>Rendang Daging Sapi Magek — Rendang Minangkabau Yogyakarta</image:title>
+      <image:caption>Rendang Daging Sapi Magek dalam mangkuk kayu dengan kaleng produk, sajian otentik Minangkabau</image:caption>
     </image:image>
     <image:image>
-      <image:loc>https://rendang-magek.vercel.app/gambar/rendang-daging.jpg</image:loc>
-      <image:title>Rendang Daging Sapi — Rendang Magek</image:title>
-      <image:caption>Rendang daging sapi kering berbumbu kelapa pekat dalam mangkuk keramik</image:caption>
+      <image:loc>https://rendang-magek.vercel.app/gambar/rendang-suwir.jpg</image:loc>
+      <image:title>Rendang Suwir Magek — Rendang Suwir Kemasan Kaleng</image:title>
+      <image:caption>Rendang Suwir Magek, daging sapi disuwir halus berbumbu pekat khas Minangkabau</image:caption>
     </image:image>
     <image:image>
       <image:loc>https://rendang-magek.vercel.app/gambar/rendang-jengkol.jpg</image:loc>
-      <image:title>Rendang Jengkol — Rendang Magek</image:title>
-      <image:caption>Rendang jengkol dengan balutan bumbu kering kelapa panggang khas Minangkabau</image:caption>
+      <image:title>Rendang Jengkol Magek — Rendang Jengkol Khas Minang</image:title>
+      <image:caption>Rendang Jengkol Magek dengan bumbu kelapa pekat tradisional Minangkabau</image:caption>
+    </image:image>
+    <image:image>
+      <image:loc>https://rendang-magek.vercel.app/gambar/bumbu-rendang-2.jpg</image:loc>
+      <image:title>Bumbu Rendang Magek — Bumbu Siap Masak Halal</image:title>
+      <image:caption>Bumbu Rendang Magek lengkap dengan bumbu basah dan kering, bersertifikat Halal Indonesia</image:caption>
     </image:image>
   </url>
 
   <!-- Kebijakan Privasi -->
   <url>
-    <loc>https://rendang-magek.vercel.app/privasi.html</loc>
+    <loc>https://rendang-magek.vercel.app/privasi</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
@@ -37,7 +42,7 @@
 
   <!-- Ketentuan Layanan -->
   <url>
-    <loc>https://rendang-magek.vercel.app/ketentuan.html</loc>
+    <loc>https://rendang-magek.vercel.app/ketentuan</loc>
     <lastmod>2026-10-18</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>

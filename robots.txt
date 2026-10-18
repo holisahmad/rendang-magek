@@ -1,5 +1,39 @@
+# Rendang Magek — robots.txt
+# https://rendang-magek.vercel.app
+
 User-agent: *
 Allow: /
 Disallow: /generate-placeholders.html
+
+# AI Crawlers — diizinkan untuk indexing dan kutipan
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /gambar/
+
+User-agent: Bingbot
+Allow: /
 
 Sitemap: https://rendang-magek.vercel.app/sitemap.xml
