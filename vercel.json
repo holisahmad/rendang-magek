@@ -5,11 +5,11 @@
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "DENY" },
-        { "key": "X-XSS-Protection", "value": "1; mode=block" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" }
+        { "key": "X-Content-Type-Options",  "value": "nosniff" },
+        { "key": "X-Frame-Options",         "value": "DENY" },
+        { "key": "X-XSS-Protection",        "value": "1; mode=block" },
+        { "key": "Referrer-Policy",         "value": "strict-origin-when-cross-origin" },
+        { "key": "Permissions-Policy",      "value": "camera=(), microphone=(), geolocation=()" }
       ]
     },
     {
@@ -33,32 +33,21 @@
     {
       "source": "/favicon.ico",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" }
+        { "key": "Cache-Control", "value": "public, max-age=86400" }
       ]
     },
     {
       "source": "/site.webmanifest",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=86400, stale-while-revalidate=604800" }
-      ]
-    },
-    {
-      "source": "/:page.html",
-      "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=0, must-revalidate" }
+        { "key": "Cache-Control",   "value": "public, max-age=86400" },
+        { "key": "Content-Type",    "value": "application/manifest+json" }
       ]
     }
   ],
-  "redirects": [
-    {
-      "source": "/privasi",
-      "destination": "/privasi.html",
-      "permanent": false
-    },
-    {
-      "source": "/ketentuan",
-      "destination": "/ketentuan.html",
-      "permanent": false
-    }
+  "rewrites": [
+    { "source": "/sitemap.xml",  "destination": "/sitemap.xml" },
+    { "source": "/robots.txt",   "destination": "/robots.txt" },
+    { "source": "/privasi",      "destination": "/privasi.html" },
+    { "source": "/ketentuan",    "destination": "/ketentuan.html" }
   ]
 }
