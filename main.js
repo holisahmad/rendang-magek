@@ -20,36 +20,40 @@
   const hamburger = document.querySelector('.nav__hamburger');
   const mobileMenu = document.getElementById('mobile-menu');
 
+  function openMenu() {
+    hamburger.classList.add('open');
+    mobileMenu.classList.add('open');
+    hamburger.setAttribute('aria-expanded', 'true');
+    mobileMenu.setAttribute('aria-hidden', 'false');
+    mobileMenu.removeAttribute('inert');
+    mobileMenu.querySelectorAll('a').forEach(a => a.removeAttribute('tabindex'));
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeMenu() {
+    hamburger.classList.remove('open');
+    mobileMenu.classList.remove('open');
+    hamburger.setAttribute('aria-expanded', 'false');
+    mobileMenu.setAttribute('aria-hidden', 'true');
+    mobileMenu.setAttribute('inert', '');
+    mobileMenu.querySelectorAll('a').forEach(a => a.setAttribute('tabindex', '-1'));
+    document.body.style.overflow = '';
+  }
+
   if (hamburger && mobileMenu) {
     hamburger.addEventListener('click', () => {
-      const isOpen = hamburger.classList.toggle('open');
-      mobileMenu.classList.toggle('open', isOpen);
-      hamburger.setAttribute('aria-expanded', String(isOpen));
-      mobileMenu.setAttribute('aria-hidden', String(!isOpen));
-      document.body.style.overflow = isOpen ? 'hidden' : '';
+      mobileMenu.classList.contains('open') ? closeMenu() : openMenu();
     });
 
-    // Close on link click
     mobileMenu.querySelectorAll('a').forEach(a => {
-      a.addEventListener('click', () => {
-        hamburger.classList.remove('open');
-        mobileMenu.classList.remove('open');
-        hamburger.setAttribute('aria-expanded', 'false');
-        mobileMenu.setAttribute('aria-hidden', 'true');
-        document.body.style.overflow = '';
-      });
+      a.addEventListener('click', closeMenu);
     });
 
-    // Close on outside click
     document.addEventListener('click', (e) => {
       if (mobileMenu.classList.contains('open') &&
           !mobileMenu.contains(e.target) &&
           !hamburger.contains(e.target)) {
-        hamburger.classList.remove('open');
-        mobileMenu.classList.remove('open');
-        hamburger.setAttribute('aria-expanded', 'false');
-        mobileMenu.setAttribute('aria-hidden', 'true');
-        document.body.style.overflow = '';
+        closeMenu();
       }
     });
   }
